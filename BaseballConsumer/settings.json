@@ -3,7 +3,7 @@
     "DISCORD_CLIENT_SECRET": "DISCORD_CLIENT_SECRET",
     "DISCORD_TOKEN": "DISCORD_TOKEN",
     "DISCORD_GAME_THREAD_CHANNEL_ID": "DISCORD_GAME_THREAD_CHANNEL_ID",
-    "GAME_THREAD_LOG": "./BaseballConsumer/logs/game_thread.now",
+    "GAME_THREAD_LOG": "./logs/game_thread.now",
     "BOT_TIME_ZONE": "CT",
     "TEAM_TIME_ZONE": "CT",
     "TEAM_CODE": "hou",
