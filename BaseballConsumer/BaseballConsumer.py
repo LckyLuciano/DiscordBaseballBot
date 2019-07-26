@@ -27,28 +27,28 @@ import bs4
 SETTINGS_FILE = './settings.json'
 
 # Emotes
-EMOTE_STRIKEOUT = "<:strikeout:345303176704032770>"
-EMOTE_STRIKEOUT_LOOKING = "<:strikeout2:345303176792113152>"
-EMOTE_RBI = "<:ribbies:345468637617848321>"
-EMOTE_EARNED_RUN = "<:nymLogo:419221359357460480>"
+EMOTE_STRIKEOUT = "K"
+EMOTE_STRIKEOUT_LOOKING = "ꓘ"
+EMOTE_RBI = "<:baseballbat:604384883061686273>"
+EMOTE_EARNED_RUN = "<:astros:604380465276649472>"
 EMOTE_UNEARNED_RUN: "¯\_(ツ)_/¯"
-EMOTE_HOMERUN = "<:ITSOUTTAHERE:345303176955822080>"
-EMOTE_GRAND_SLAM = "<:salami:345303176636792832>"
+EMOTE_HOMERUN = "<:sparkler:>"
+EMOTE_GRAND_SLAM = "<:eggplant:>"
 EMOTE_OTHER_TEAM_RBI = ":("
-EMOTE_OTHER_TEAM_EARNED_RUN = "<:tired_face:562192847575580692>"
-EMOTE_OTHER_TEAM_UNEARNED_RUN = "<:rage:562189976343805963>"
+EMOTE_OTHER_TEAM_EARNED_RUN = "<:tired_face:>"
+EMOTE_OTHER_TEAM_UNEARNED_RUN = "<:rage:>"
 EMOTE_OTHER_TEAM_STRIKEOUT = "K"
 EMOTE_OTHER_TEAM_STRIKEOUT_LOOKING = "ꓘ"
-EMOTE_STOLEN_BASE = "<:stolen:432072292013572097>"
+EMOTE_STOLEN_BASE = "<:taco:>"
 
 # Game Status Constants
 WARMUP_TITLE = 'Game\'s about to start, everyone get in here!'
-WARMUP_DESCRIPTION = "Let's go win this one!" # Meet the Mets, meet the Mets.  Step right up and greet the Mets...
-WARMUP_BODY_ALTERNATIVE = "https://www.youtube.com/watch?v=6GsCmnZnllk" # MTM https://www.youtube.com/watch?v=6GsCmnZnllk
+WARMUP_DESCRIPTION = "Let's go win this one!" # Here come the Astros, burning with desire...
+WARMUP_BODY_ALTERNATIVE = "https://www.youtube.com/watch?v=JvSXJ4_g228" # HereComeTheAstros https://www.youtube.com/watch?v=JvSXJ4_g228
 
 GAMESTARTED_TITLE = 'Play ball!'
 GAMESTARTED_DESCRIPTION = 'HYPE HYPE HYPE HYPE HYPE HYPE HYPE'
-GAMESTARTED_BODY = "Let's go Mets!"
+GAMESTARTED_BODY = "Let's go Astros!"
 
 RAINDELAY_TITLE = 'Rain Delay'
 RAINDELAY_DESCRIPTION = 'Rain delay stats?'
@@ -64,10 +64,10 @@ COMPLETEDEARLY_BODY = '8-ball: "No chance in hell!"'
 
 GAMEENDED_WIN_TITLE = 'Put it in the books!'
 GAMEENDED_WIN_BODY = 'https://www.youtube.com/watch?v=mmwic9kFx2c' ## (TCB) 'https://www.youtube.com/watch?v=mmwic9kFx2c'
-GAMEENDED_LOSS_TITLE = 'Mets defeated' # Mets defeated
-GAMEENDED_LOSS_BODY = 'https://cdn.discordapp.com/attachments/411210054591578122/465340387037544448/killme.png' # We will get \'em next time  ## (dolphin) 'https://cdn.discordapp.com/attachments/411210054591578122/465340387037544448/killme.png')
+GAMEENDED_LOSS_TITLE = 'Astros defeated' # Astros defeated
+GAMEENDED_LOSS_BODY = 'https://pbs.twimg.com/media/Cm3zcBeUcAAmP00.jpg' # We will get \'em next time  ## (sad mascot) 'https://pbs.twimg.com/media/Cm3zcBeUcAAmP00.jpg')
 
-SEVENTH_INNING_STRETCH = 'SEVENTH INNING STRETCH TIME!\nhttps://youtu.be/Tg3C0nvenro' # (Lazy Mary) https://youtu.be/Tg3C0nvenro
+SEVENTH_INNING_STRETCH = 'SEVENTH INNING STRETCH TIME!\nhttps://www.youtube.com/watch?v=-hPL2s68dHA' # (Deep in the Heart of Texas) https://www.youtube.com/watch?v=-hPL2s68dHA
 
 class BaseballUpdaterBot:
 
