@@ -85,6 +85,10 @@ The bot queries http://gd2.mlb.com/components/game/mlb/ every 10 seconds to get 
   * Not used, but supposed to be used to determine when a day ends to change the URL searched for.
 
 # Changelog
+* 7-26-19
+  * Moved the settings file to a new location
+  * Hard coded the path to the game_thread.now file
+  * Changed the theme (text, links, etc..) from Mets to Astros
 * 5-15-19
   * Bot now states that it is catching up if it is behind in the game
   * Fixed Grand slam emotes
