@@ -3,9 +3,9 @@
     "DISCORD_CLIENT_SECRET": "DISCORD_CLIENT_SECRET",
     "DISCORD_TOKEN": "DISCORD_TOKEN",
     "DISCORD_GAME_THREAD_CHANNEL_ID": "DISCORD_GAME_THREAD_CHANNEL_ID",
-    "GAME_THREAD_LOG": "<Path to game_thread.now>",
-    "BOT_TIME_ZONE": "ET",
-    "TEAM_TIME_ZONE": "ET",
-    "TEAM_CODE": "nyn",
-    "TEAM_ABBREV": "NYM"
+    "GAME_THREAD_LOG": "./BaseballConsumer/logs/game_thread.now",
+    "BOT_TIME_ZONE": "CT",
+    "TEAM_TIME_ZONE": "CT",
+    "TEAM_CODE": "hou",
+    "TEAM_ABBREV": "HOU"
 }
